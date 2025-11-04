@@ -20,5 +20,19 @@ uv sync
 e.g
 
 ```bash
-uv run main.py
+uv run main.py --help
+```
+## some commands
+
+to check version
+```bash
+uv run main.py version
+```
+to divide 
+```bash
+uv run main.py divide 5 6
+```
+to multiply 
+```bash
+uv run main.py multiply 5 6
 ```
